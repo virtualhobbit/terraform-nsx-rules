@@ -15,7 +15,7 @@ variable "destinations" {
 	type = list(string)
 }
 variable "action" {
-	type = list(string)
+	type = string
 }
 variable "t1_paths" {
 	type = list(string)
