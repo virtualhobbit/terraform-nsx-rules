@@ -8,6 +8,9 @@ variable "description" {
 variable "protocol" {
 	type = string
 }
+variable "sources" {
+	type = list(string)
+}
 variable "destination_ports" {
 	type = list(number)
 }
